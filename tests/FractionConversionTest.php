@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Created by IntelliJ IDEA.
  * User: hugh
  * Date: 03/11/2018

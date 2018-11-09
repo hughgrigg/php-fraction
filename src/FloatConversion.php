@@ -11,7 +11,7 @@ class FloatConversion
     private $precision;
 
     /**
-     * @param float $float
+     * @param float      $float
      * @param float|null $precision
      */
     public function __construct(float $float, float $precision = null)
@@ -35,9 +35,10 @@ class FloatConversion
      * Adjust the precision for float->fraction conversion.
      *
      * @param float $precision
+     *
      * @return FloatConversion
      */
-    public function withPrecision(float $precision): FloatConversion
+    public function withPrecision(float $precision): self
     {
         return new static($this->float, $precision);
     }

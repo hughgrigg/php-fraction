@@ -27,7 +27,7 @@ class Fraction
      *
      * @return Fraction
      */
-    public function simplified(): Fraction
+    public function simplified(): self
     {
         return $this; // TODO
     }
